@@ -21,9 +21,10 @@ function makeGuess() {
   document.getElementById("num-guesses").innerHTML = numGuesses;
 
   if (guess === num) {
-    feedback.innerHTML = "You guessed it!";
+    feedback.innerHTML = "You guessed it in " + numGuesses + " attempts!";
     howClose.innerHTML = "";
     resetGuesses();
+    document.getElementById("num-guesses").innerHTML = numGuesses;
   } else if (guess !== num && numGuesses <= 3) {
     feedback.innerHTML = "Oops, that's not it. Try again!";
   } else if (guess > num && numGuesses <= 10) {

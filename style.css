@@ -30,9 +30,16 @@
   padding-bottom: 7px;
 }
 
+.guessPrompt {
+  padding-top: 20px;
+}
+
 .numInput {
   width: 375px;
-  height: 30px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
 }
 
 .buttonGuess {
