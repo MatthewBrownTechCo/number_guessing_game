@@ -1,0 +1,54 @@
+.whole {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: monospace;
+  font-size: 30px;
+}
+
+#backgroundImg {
+  background-image: url("https://i.pinimg.com/originals/7d/2a/9f/7d2a9fca264faa93561f72b5fc885fec.gif");
+  background-size: cover;
+}
+
+.guessInput {
+  color: white;
+  background-color: rgba(84, 0, 162, 0.331);
+  border: 3px solid white;
+  padding: 30px;
+}
+
+.questionPrompt {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.btnFunction {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.numInput {
+  width: 375px;
+  height: 30px;
+}
+
+.buttonGuess {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+
+.buttonGuess:hover {
+  background-color: rgba(255, 255, 255, 0.31);
+  cursor: pointer;
+}
+
+.numOfGuesses {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}

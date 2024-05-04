@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guess That Number!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="whole" id="backgroundImg">
+    <div class="guessInput">
+      <p class="questionPrompt">
+        Try to guess a random number between 1 and 50!
+      </p>
+      <div class="btnFunction">
+        <label class="guessPrompt" for="guess">Guess: </label>
+        <input class="numInput" id="guess" type="number" />
+        <button class="buttonGuess" id="myBtn" onclick="makeGuess()">
+          Make Guess
+        </button>
+      </div>
+      <p class="numOfGuesses">
+        Number of guesses: <span id="num-guesses">0</span>
+      </p>
+      <p id="feedback"></p>
+      <p id="howClose"></p>
+      <script src="functions.js"></script>
+    </div>
+  </body>
+</html>
