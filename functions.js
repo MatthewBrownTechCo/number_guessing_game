@@ -2,11 +2,11 @@ function randomNum(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
-let num = randomNum(1, 50);
+let num = randomNum(1, 20);
 let numGuesses = 0;
 
 function resetGuesses() {
-  num = randomNum(1, 50);
+  num = randomNum(1, 20);
   numGuesses = 0;
 }
 
