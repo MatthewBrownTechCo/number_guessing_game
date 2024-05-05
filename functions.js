@@ -29,16 +29,16 @@ function makeGuess() {
     feedback.innerHTML = "Oops, that's not it. Try again!";
   } else if (guess > num && numGuesses <= 10) {
     feedback.innerHTML =
-      "Wow, you aren't very good at this... Let me try giving you a hint!";
-    howClose.innerHTML = "Hint: try guessing lower";
+      "I guess we aren't all gold medals.. Let me help you out a bit!";
+    howClose.innerHTML = "Hint: try guessing a lower number";
   } else if (guess < num && numGuesses <= 10) {
     feedback.innerHTML =
-      "Wow, you aren't very good at this... Let me try giving you a hint!";
+      "I guess we aren't all gold medals.. Let me help you out a bit!";
     howClose.innerHTML = "Hint: try guessing higher";
   } else {
-    feedback.innerHTML = "Bro...";
+    feedback.innerHTML = "Hmm... ";
     howClose.innerHTML =
-      "You are clearly trolling me or just dumb. I'm not indulging. Keep guessing if you want... or don't. I don't care. Goodbye :)";
+      "Alright, so I don't know how to say this. This might not be the game for you. You might want to try an easier game... ";
   }
 }
 
